@@ -14,7 +14,7 @@ namespace Bookora.Api.Tests.Unit
             var expected = 5;
             // when
             var actual = 5;
-            
+
             // then
             Assert.Equal(expected, actual);
         }

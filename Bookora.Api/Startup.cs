@@ -26,13 +26,13 @@ namespace Bookora.Api
                 Title = "Bookora.Api",
                 Version = "v1"
             };
-            
+
 
             services.AddControllers();
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc(
-                    name:"v1", 
+                    name: "v1",
                     info: apiInfo);
             });
         }
@@ -47,8 +47,8 @@ namespace Bookora.Api
                 app.UseSwaggerUI(options =>
                     {
                         options.SwaggerEndpoint(
-                            url:"/swagger/v1/swagger.json",
-                            name:"Bookora.Api v1");
+                            url: "/swagger/v1/swagger.json",
+                            name: "Bookora.Api v1");
                     });
             }
 

@@ -16,6 +16,5 @@ namespace Bookora.Api.Controllers
         [HttpGet]
         public ActionResult<string> Get() =>
            Ok("Hello Nusratulloh, project Bookora active.");
-
     }
 }
