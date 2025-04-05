@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿//==================================================
+// Copyright (c) Bookora Project
+// Powered by The Standard by Hassan Habib
+// Manage Your Library Smarter
+//==================================================
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using RESTFulSense.Controllers;
 
